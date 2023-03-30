@@ -1,7 +1,7 @@
 # Go OpenAI
-[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/sashabaranov/go-openai)
-[![Go Report Card](https://goreportcard.com/badge/github.com/sashabaranov/go-openai)](https://goreportcard.com/report/github.com/sashabaranov/go-openai)
-[![codecov](https://codecov.io/gh/sashabaranov/go-openai/branch/master/graph/badge.svg?token=bCbIfHLIsW)](https://codecov.io/gh/sashabaranov/go-openai)
+[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/leizhenpeng/go-openai)
+[![Go Report Card](https://goreportcard.com/badge/github.com/leizhenpeng/go-openai)](https://goreportcard.com/report/github.com/leizhenpeng/go-openai)
+[![codecov](https://codecov.io/gh/leizhenpeng/go-openai/branch/master/graph/badge.svg?token=bCbIfHLIsW)](https://codecov.io/gh/leizhenpeng/go-openai)
 
 > **Note**: the repository was recently renamed from `go-gpt3` to `go-openai`
 
@@ -14,7 +14,7 @@ This library provides Go clients for [OpenAI API](https://platform.openai.com/).
 
 Installation:
 ```
-go get github.com/sashabaranov/go-openai
+go get github.com/leizhenpeng/go-openai
 ```
 
 
@@ -26,7 +26,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/leizhenpeng/go-openai"
 )
 
 func main() {
@@ -69,7 +69,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/leizhenpeng/go-openai"
 )
 
 func main() {
@@ -122,7 +122,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/leizhenpeng/go-openai"
 )
 
 func main() {
@@ -155,7 +155,7 @@ import (
 	"context"
 	"fmt"
 	"io"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/leizhenpeng/go-openai"
 )
 
 func main() {
@@ -204,7 +204,7 @@ import (
 	"context"
 	"fmt"
 
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/leizhenpeng/go-openai"
 )
 
 func main() {
@@ -236,7 +236,7 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	openai "github.com/sashabaranov/go-openai"
+	openai "github.com/leizhenpeng/go-openai"
 	"image/png"
 	"os"
 )
@@ -324,7 +324,7 @@ config.HTTPClient = &http.Client{
 c := openai.NewClientWithConfig(config)
 ```
 
-See also: https://pkg.go.dev/github.com/sashabaranov/go-openai#ClientConfig
+See also: https://pkg.go.dev/github.com/leizhenpeng/go-openai#ClientConfig
 </details>
 
 <details>
@@ -340,7 +340,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/sashabaranov/go-openai"
+	"github.com/leizhenpeng/go-openai"
 )
 
 func main() {
