@@ -108,8 +108,8 @@ func (c *Client) fullURL(suffix string) string {
 		if strings.Contains(suffix, "/models") {
 			return fmt.Sprintf("%s/%s%s?api-version=%s", baseURL, azureAPIPrefix, suffix, c.config.APIVersion)
 		}
-		return fmt.Sprintf("%s/%s/%s/%s%s?api-version=%s",
-			baseURL, azureAPIPrefix, azureDeploymentsPrefix, c.config.Engine, suffix, c.config.APIVersion)
+		return fmt.Sprintf("%s/%s%s?api-version=%s",
+			baseURL, c.config.Engine, suffix, c.config.APIVersion)
 	}
 
 	// c.config.APIType == APITypeOpenAI || c.config.APIType == ""
